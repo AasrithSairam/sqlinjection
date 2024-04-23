@@ -36,7 +36,9 @@ Click on the menu Login/Register and register for an account
 ![Screenshot 2023-06-10 214003](https://github.com/praveenst13/sqlinjection/assets/118787793/dfe4513c-3c0d-43e0-b1e4-ad4baee43b98)
 
 Click on the link “Please register here”
-![image](https://github.com/AasrithSairam/sqlinjection/assets/139331438/0126b8cc-cd33-490f-94de-cf13c12d8deb)
+
+![image](https://github.com/AasrithSairam/sqlinjection/assets/139331438/fa7cc9e6-ce25-42c7-8b12-23bd39091eab)
+
 
 
 Click on “Create Account” to display the following page:
@@ -45,7 +47,10 @@ The login structure we will use in our examples is straightforward. It contains 
 
 ($query = “SELECT * FROM users WHERE username=’$_POST[username]’ AND password=’$_POST[password]’“;).
  For the username put “ganesh” or “anything” and for the password put (anything’ or ‘1’=’1) or (admin’ or ‘1’=’1) then try to log in, and you’ll be presented with an admin login page.
-![image](https://github.com/AasrithSairam/sqlinjection/assets/139331438/7ef8a45f-bd3e-4ee5-b429-fde351010f1f)
+
+ 
+![image](https://github.com/AasrithSairam/sqlinjection/assets/139331438/d647f288-eac0-43e7-9349-16fd552fc95a)
+
 
 
 Click “Login”. The logged in page will show as below:
